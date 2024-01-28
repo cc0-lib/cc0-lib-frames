@@ -28,7 +28,7 @@ const html = (url?: string) => {
   `;
 };
 
-export const getImage = async () => {
+const getImage = async () => {
   const data = await fetch("https://cc0-lib.wtf/api/random");
 
   if (!data.ok) {

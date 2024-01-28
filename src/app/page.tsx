@@ -1,5 +1,5 @@
-import { getImage } from "./api/image/route";
 import { SITE_URL } from "@/lib/constant";
+import { getImage } from "@/lib/get-image";
 
 export const revalidate = 1;
 
